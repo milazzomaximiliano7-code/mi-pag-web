@@ -52,6 +52,24 @@
             padding-bottom: 5px;
         }
 
+        /* GALERÍA */
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .galeria img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.05);
+        }
+
         footer {
             text-align: center;
             padding: 20px;
@@ -73,63 +91,55 @@
     <a href="#partidos">Partidos</a>
     <a href="#resultados">Resultados</a>
     <a href="#jugadores">Jugadores</a>
+    <a href="#fotos">Fotos</a>
     <a href="#instagram">Instagram</a>
     <a href="#historia">Historia</a>
     <a href="#contacto">Contacto</a>
 </nav>
 
 <section id="partidos">
-    <h2>Próximos Partidos</h2>
-    <ul>
-        <li>Dos Toques vs Equipo X – Fecha 1</li>
-        <li>Dos Toques vs Equipo Y – Fecha 2</li>
-        <li>Dos Toques vs Equipo Z – Fecha 3</li>
-    </ul>
+    <h2>Partidos</h2>
+    <p>No hay datos cargados todavía.</p>
 </section>
 
 <section id="resultados">
-    <h2>Últimos Resultados</h2>
-    <ul>
-        <li>Dos Toques 4 - 2 Los Pibes</li>
-        <li>Dos Toques 1 - 1 Los Tigres</li>
-        <li>Dos Toques 3 - 0 La Banda</li>
-    </ul>
+    <h2>Resultados</h2>
+    <p>No hay datos cargados todavía.</p>
 </section>
 
 <section id="jugadores">
-    <h2>Plantel</h2>
-    <p>Acá podemos poner fotos y descripción de cada jugador si querés.</p>
-    <ul>
-        <li>Juan Pérez – Delantero</li>
-        <li>Carlos López – Mediocampista</li>
-        <li>Lucas Díaz – Defensor</li>
-        <li>Mauro Torres – Arquero</li>
-    </ul>
+    <h2>Jugadores</h2>
+    <p>No hay datos cargados todavía.</p>
+</section>
+
+<section id="fotos">
+    <h2>Galería del Equipo</h2>
+    <p>Subí fotos al repositorio y aparecerán acá.</p>
+
+    <div class="galeria">
+        <!-- Ejemplo para agregar fotos:
+        <img src="foto1.jpg" alt="Foto del equipo">
+        -->
+    </div>
 </section>
 
 <section id="instagram">
     <h2>Instagram Oficial</h2>
-    <p>Seguinos en Instagram:</p>
-    <p>
-        <a href="https://instagram.com/tu_instagram" target="_blank" style="color:red;">
-            👉 @tu_instagram
-        </a>
-    </p>
+    <p>No hay cuenta vinculada todavía.</p>
 </section>
 
 <section id="historia">
-    <h2>Historia del Club</h2>
-    <p>El equipo Dos Toques nació con la idea de jugar buen fútbol, tener amistad y representar nuestros colores con orgullo.</p>
+    <h2>Historia</h2>
+    <p>No hay información cargada todavía.</p>
 </section>
 
 <section id="contacto">
     <h2>Contacto</h2>
-    <p>Para amistosos, prensa o consultas:</p>
-    <p>Email: contacto@dostoques.com</p>
+    <p>No hay información cargada todavía.</p>
 </section>
 
 <footer>
-    © 2025 Club Dos Toques – Todos los derechos reservados
+    © Club Dos Toques
 </footer>
 
 </body>
